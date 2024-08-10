@@ -1,0 +1,36 @@
+.input-data {
+  width: 272px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+.start-btn {
+  font-weight: 500;
+  color: #989898;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #cfcfcf;
+  line-height: 24px;
+  width: 75px;
+  height: 40px;
+  vertical-align: middle;
+}
+.timer {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.value {
+  font-size: 40px;
+  line-height: 48px; /* 120% */
+  letter-spacing: 1.6px;
+  color: #2e2f42;
+}
+.label {
+  color: #2e2f42;
+}
