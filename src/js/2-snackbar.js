@@ -1,7 +1,7 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-import errorMassage from '../img/error-massage.svg';
-import fulfilledMassage from '../img/fulfilled-massage.svg';
+import errorMessage from '../img/error-massage.svg';
+import fulfilledMessage from '../img/fulfilled-massage.svg';
 
 const form = document.querySelector('.form');
 
@@ -30,7 +30,7 @@ function onFormSubmit(e) {
           messageColor: '#fff',
           messageSize: '16px',
           messageLineHeight: '24px',
-          iconUrl: fulfilledMassage,
+          iconUrl: fulfilledMessage,
           timeout: 5000,
         });
       }, delay);
@@ -48,7 +48,7 @@ function onFormSubmit(e) {
           messageColor: '#fff',
           messageSize: '16px',
           messageLineHeight: '24px',
-          iconUrl: errorMassage,
+          iconUrl: errorMessage,
           timeout: 5000,
         });
       }, delay);

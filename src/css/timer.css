@@ -61,7 +61,7 @@
 .label {
   color: #2e2f42;
 }
-/* .error-massage {
+/* .error-message {
   color: #fff;
   letter-spacing: 0.5px;
   padding: 20px 20px 20px 54px;
@@ -78,7 +78,7 @@
 .active {
   display: block;
 }
-.error-massage::before {
+.error-message::before {
   content: "";
   background-image: url(../img/error-massage.svg);
   display: block;
@@ -87,7 +87,7 @@
   position: absolute;
   left: 20px;
 }
-.error-massage::after {
+.error-message::after {
   content: "";
   width: 97px;
   height: 64px;
