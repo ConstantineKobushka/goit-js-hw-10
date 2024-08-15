@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timer</title>
     
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-a4be59ef.css">
+    <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-700adc14.css">
   </head>
   <body>
     <header class="header">
@@ -29,8 +32,12 @@
       <div class="container">
         <p class="title">Welcome to Timer</p>
 
+        <!-- <p class="error-massage">Please choose a data in the future</p> -->
+
         <input class="input-data" type="text" id="datetime-picker" />
-        <button class="start-btn" type="button" data-start>Start</button>
+        <button class="start-btn" type="button" disabled data-start>
+          Start
+        </button>
 
         <div class="timer">
           <div class="field">
