@@ -2,8 +2,7 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-
-import errormassage from '../img/error-massage.svg';
+import errorMassage from '../img/error-massage.svg';
 
 const datetimePicker = document.querySelector('#datetime-picker');
 const startBtn = document.querySelector('button[data-start]');
@@ -37,8 +36,7 @@ const options = {
         messageColor: '#fff',
         messageSize: '16px',
         messageLineHeight: '24px',
-        iconUrl: errormassage,
-        // iconUrl: '../src/img/error-massage.svg',
+        iconUrl: errorMassage,
         timeout: 5000,
       });
       // errorMassage.classList.add('active');
