@@ -35,7 +35,7 @@ const options = {
         messageColor: '#fff',
         messageSize: '16px',
         messageLineHeight: '24px',
-        iconUrl: '../src/img/error-massage.svg',
+        iconUrl: 'img/error-massage.svg',
         timeout: 5000,
       });
       // errorMassage.classList.add('active');

@@ -28,7 +28,7 @@ function onFormSubmit(e) {
           messageColor: '#fff',
           messageSize: '16px',
           messageLineHeight: '24px',
-          iconUrl: '../src/img/fulfilled-massage.svg',
+          iconUrl: 'img/fulfilled-massage.svg',
           timeout: 5000,
         });
       }, delay);
@@ -45,7 +45,7 @@ function onFormSubmit(e) {
           messageColor: '#fff',
           messageSize: '16px',
           messageLineHeight: '24px',
-          iconUrl: '../src/img/error-massage.svg',
+          iconUrl: 'img/error-massage.svg',
           timeout: 5000,
         });
       }, delay);
