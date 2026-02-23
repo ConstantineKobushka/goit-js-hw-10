@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snackbar</title>
-    
-    <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers2.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/error-massage-92410ca8.js">
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
-    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
-    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-700adc14.css">
+    <script type="module" crossorigin src="/goit-js-hw-10/2-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/styles-nI2kmSiM.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-Dov3POoy.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/izitoast-error-icon-CijKBY6o.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-Bpb2aUDd.css">
   </head>
   <body>
     <header class="header">
@@ -27,33 +27,34 @@
       </div>
     </header>
 
-    <section class="section">
-      <div class="container">
-        <p class="title">Welcome to Snackbar</p>
+    <main>
+      <section class="section">
+        <div class="container">
+          <p class="title">Welcome to Snackbar</p>
 
-        <form class="form">
-          <label class="delay-label">
-            Delay (ms)
-            <input class="delay-input" type="number" name="delay" required />
-          </label>
-
-          <fieldset class="form-fildset">
-            <legend>State</legend>
-            <label>
-              <input type="radio" name="state" value="fulfilled" required />
-              Fulfilled
+          <form class="form">
+            <label class="delay-label">
+              Delay (ms)
+              <input class="delay-input" type="number" name="delay" required />
             </label>
-            <label>
-              <input type="radio" name="state" value="rejected" required />
-              Rejected
-            </label>
-          </fieldset>
 
-          <button class="form-btn" type="submit">Create notification</button>
-        </form>
-      </div>
-    </section>
+            <fieldset class="form-fildset">
+              <legend>State</legend>
+              <label>
+                <input type="radio" name="state" value="fulfilled" required />
+                Fulfilled
+              </label>
+              <label>
+                <input type="radio" name="state" value="rejected" required />
+                Rejected
+              </label>
+            </fieldset>
 
-    
+            <button class="form-btn" type="submit">Create notification</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
   </body>
 </html>
