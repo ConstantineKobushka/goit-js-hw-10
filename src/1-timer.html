@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -23,37 +23,37 @@
       </div>
     </header>
 
-    <section class="section">
-      <div class="container">
-        <p class="title">Welcome to Timer</p>
+    <main>
+      <section class="section">
+        <div class="container">
+          <p class="title">Welcome to Timer</p>
 
-        <!-- <p class="error-message">Please choose a data in the future</p> -->
+          <div class="timer-controle">
+            <input class="date-input" type="text" id="datetime-picker" />
+            <button class="start-btn" type="button" data-start>Start</button>
+          </div>
 
-        <input class="input-data" type="text" id="datetime-picker" />
-        <button class="start-btn" type="button" disabled data-start>
-          Start
-        </button>
-
-        <div class="timer">
-          <div class="field">
-            <span class="value" data-days>00</span>
-            <span class="label">Days</span>
-          </div>
-          <div class="field">
-            <span class="value" data-hours>00</span>
-            <span class="label">Hours</span>
-          </div>
-          <div class="field">
-            <span class="value" data-minutes>00</span>
-            <span class="label">Minutes</span>
-          </div>
-          <div class="field">
-            <span class="value" data-seconds>00</span>
-            <span class="label">Seconds</span>
+          <div class="timer">
+            <div class="field">
+              <span class="value" data-days>00</span>
+              <span class="label">Days</span>
+            </div>
+            <div class="field">
+              <span class="value" data-hours>00</span>
+              <span class="label">Hours</span>
+            </div>
+            <div class="field">
+              <span class="value" data-minutes>00</span>
+              <span class="label">Minutes</span>
+            </div>
+            <div class="field">
+              <span class="value" data-seconds>00</span>
+              <span class="label">Seconds</span>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <script type="module" src="./js/1-timer.js"></script>
   </body>
